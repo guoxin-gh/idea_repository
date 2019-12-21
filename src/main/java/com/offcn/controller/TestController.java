@@ -8,4 +8,7 @@ package com.offcn.controller;
  * @Version 1.0
  */
 public class TestController {
+    public static void main(String[] args) {
+        System.out.println("这是左侧测试代码.....");
+    }
 }
