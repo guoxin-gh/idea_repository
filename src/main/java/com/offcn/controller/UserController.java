@@ -17,6 +17,7 @@ import java.util.List;
 @RestController
 public class UserController {
 
+    private String User;
 
     @Autowired
     private UserRepository userRepository;
@@ -92,9 +93,5 @@ public class UserController {
     public List<User> getByNameAndAge(String name,Integer age){
         //return userRepository.getByNameAndAge(name,age);
         return userRepository.getByNameAndAgeNative(name,age);
-    }
-
-    public static void main(String[] args) {
-        System.out.println("测试代码提交");
     }
 }
