@@ -11,4 +11,7 @@ public class TestController {
     public static void main(String[] args) {
         System.out.println("这是右侧测试代码....");
     }
+    public static void main(String[] args) {
+        System.out.println("这是左侧测试代码.....");
+    }
 }
